@@ -10,7 +10,7 @@
       <h1>Welcome <%=Helpers.current_user(session).username%></h1>
       <h2>Current Balance: $<%=Helpers.current_user(session).balance%></h2>
     <%else%>
-      <a href="/">Home</a>
+      <% redirect to "/error" %>
     <%end%>
 
 
