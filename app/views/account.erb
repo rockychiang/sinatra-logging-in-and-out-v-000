@@ -8,6 +8,7 @@
   <body id="page-top">
     <%if Helpers.is_logged_in?(session)%>
       <h1>Username: <%=Helpers.current_user.username%></h1>
+      <%end%>
 
 
     <a href="/logout"><button>Log Out</button></a>
