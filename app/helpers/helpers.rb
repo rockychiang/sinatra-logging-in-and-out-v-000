@@ -1,6 +1,6 @@
 class Helpers
 
-  def self.current
+  def self.current()
 
   end
 
